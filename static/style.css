@@ -1,0 +1,53 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make sure the body expands to at least the height of the viewport */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+    padding: 20px 0; /* Add some vertical padding */
+}
+
+header h1 {
+    margin: 0; /* Remove default margin */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styles */
+}
+
+nav ul li {
+    display: inline-block; /* Display navigation links horizontally */
+    margin-right: 20px; /* Add some spacing between links */
+}
+
+nav ul li a {
+    color: #fff; /* Light text color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+    padding: 20px 0; /* Add some vertical padding */
+    margin-top: auto; /* Push the footer to the bottom */
+    text-align: center; /* Center-align text */
+}

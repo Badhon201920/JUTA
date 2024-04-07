@@ -1,0 +1,78 @@
+/* Style for the order section */
+.order {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.order .container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.order h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.order form {
+    display: flex;
+    flex-direction: column;
+}
+
+.order .form-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.order label {
+    margin-right: 10px;
+}
+
+.order input[type="text"],
+.order textarea,
+.order input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    flex: 1;
+}
+
+.order button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.order button[type="submit"]:hover {
+    background-color: #3b79c2;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .order .container {
+        padding: 0 20px;
+    }
+
+    .order .form-row {
+        flex-direction: column;
+    }
+
+    .order label {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .order input[type="text"],
+    .order textarea,
+    .order input[type="number"] {
+        width: 100%;
+    }
+}

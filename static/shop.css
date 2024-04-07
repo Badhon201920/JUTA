@@ -1,0 +1,99 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 20px;
+    min-height: 70px;
+}
+
+header h1 {
+    float: left;
+    padding-left: 20px;
+}
+
+nav ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+nav ul li {
+    display: inline-block; /* Modified to inline-block */
+    padding: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.shop {
+    padding: 20px 0;
+}
+
+.shop h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.shop p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.shoe {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.shoe img {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.shoe p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.buy-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+.buy-btn:hover {
+    background-color: #45a049;
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 768px) {
+    .shoe {
+        width: 50%; /* Adjust as needed */
+        margin: 0 auto;
+    }
+}
